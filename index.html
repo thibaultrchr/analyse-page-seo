@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>SEO Page Analyzer – Analyse SEO gratuite</title>
+  <meta name="description" content="Analysez rapidement les balises SEO d'une page web : title, meta description, Hn, canonical et données on-page essentielles.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SEO Page Analyzer</h1>
+    <p>Analysez rapidement les principaux éléments SEO d’une page web.</p>
+  </header>
+
+  <main>
+    <section class="analyzer">
+      <label for="urlInput">URL à analyser</label>
+      <input type="url" id="urlInput" placeholder="https://exemple.com" required>
+      <button id="analyzeBtn">Analyser la page</button>
+    </section>
+
+    <section id="results" class="results">
+      <h2>Résultats de l’analyse</h2>
+      <div id="output">
+        <p>Entrez une URL puis cliquez sur « Analyser ».</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>À propos de cet outil</h2>
+      <p>
+        Cet analyseur SEO de page web a été conçu pour fournir une lecture rapide
+        des éléments essentiels du référencement naturel, sans configuration complexe.
+      </p>
+      <p>
+        Outil conçu par Thibault Rocher, consultant SEO.
+        <a href="https://www.leseobytibo.fr" target="_blank" rel="noopener noreferrer">
+          Découvrir des ressources SEO
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>SEO Page Analyzer – Projet open source hébergé sur GitHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
